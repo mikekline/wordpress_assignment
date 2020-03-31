@@ -1,0 +1,119 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+/*******************************************************************/
+/*            resets to override wordpress settings                */
+/*                                                                 */
+/*******************************************************************/
+
+/* removes post navigation */
+.post-navigation {
+    display: none;
+}
+
+/* removes posted by author*/
+.entry-meta .byline, .entry-meta .cat-links { 		
+  display: none; 
+}
+
+/*  removes date poted on */
+.entry-meta .posted-on { 
+	display: none; 
+}
+
+
+/* removes post title link */
+.entry-title {
+  pointer-events: none;
+}
+
+/* removes powered by wordpress/theme footer  */
+.site-info { 
+	display: none; 
+}
+
+/* highlights current page in menu */
+li.current-menu-item {
+	background: #ccc;
+	color:brown !important;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 8px;
+}
+
+
+
+/* **************************************navbar***************************************** */
+nav {
+    background-color:#C19A6B !important;  
+  color: blanchedalmond !important;
+}
+
+
+a {
+	padding:10px 12px;
+	font-size:1.2em ;
+}
+
+li {
+	margin:10px 15px;
+}
+
+/* **************************************button in posts***************************************** */
+.wp-block-button {
+  margin: 0 20px 200px 20px;
+}
+
+/*************************** custom page template for about page ************************************/
+.aboutCustom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+}
+
+.aboutCustom .wp-block-latest-posts__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutCustom li{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  height: 350px;
+  width:400px !important;
+  border: 1px solid black;
+  background-color: burlywood;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+/*************************** contact page ************************************/
+.wpcf7-form {
+  width:70vw;
+  margin:auto;
+}
+
+
+/*************************** footer ************************************/
+footer {
+    position: fixed !important;
+    bottom: 0px !important;
+    padding:25px !important;
+    width: 100vw !important;
+    text-align: center !important;
+    background-color: black !important;
+    color: whitesmoke !important;
+  }
+
+  .entry-footer {
+    display: none;
+  }
+ 
